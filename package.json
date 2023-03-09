@@ -1,0 +1,23 @@
+{
+  "name": "miss-bug-starter-vue",
+  "version": "1.0.0",
+  "description": "my first node server",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "",
+    "dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js",
+    "show-files": "dir",
+    "check-network": "ping google.com"
+  },
+  "author": "me",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cryptr": "^6.2.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
